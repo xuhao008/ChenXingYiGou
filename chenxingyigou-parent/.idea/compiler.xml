@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chenxingyigou-common" />
+        <module name="chenxingyigou-content-interface" />
+        <module name="chenxingyigou-content-service" />
+        <module name="chenxingyigou-dao" />
+        <module name="chenxingyigou-manager-web" />
+        <module name="chenxingyigou-pojo" />
+        <module name="chenxingyigou-sellergoods-interface" />
+        <module name="chenxingyigou-sellergoods-service" />
+        <module name="chenxingyigou-shop-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chenxingyigou-common" target="1.7" />
+      <module name="chenxingyigou-content-interface" target="1.7" />
+      <module name="chenxingyigou-content-service" target="1.7" />
+      <module name="chenxingyigou-dao" target="1.7" />
+      <module name="chenxingyigou-manager-web" target="1.7" />
+      <module name="chenxingyigou-parent" target="1.7" />
+      <module name="chenxingyigou-pojo" target="1.7" />
+      <module name="chenxingyigou-sellergoods-interface" target="1.7" />
+      <module name="chenxingyigou-sellergoods-service" target="1.7" />
+      <module name="chenxingyigou-shop-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

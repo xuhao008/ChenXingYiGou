@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-common/chenxingyigou-common.iml" filepath="$PROJECT_DIR$/chenxingyigou-common/chenxingyigou-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-content-interface/chenxingyigou-content-interface.iml" filepath="$PROJECT_DIR$/chenxingyigou-content-interface/chenxingyigou-content-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-content-service/chenxingyigou-content-service.iml" filepath="$PROJECT_DIR$/chenxingyigou-content-service/chenxingyigou-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-dao/chenxingyigou-dao.iml" filepath="$PROJECT_DIR$/chenxingyigou-dao/chenxingyigou-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-manager-web/chenxingyigou-manager-web.iml" filepath="$PROJECT_DIR$/chenxingyigou-manager-web/chenxingyigou-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-parent.iml" filepath="$PROJECT_DIR$/chenxingyigou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-pojo/chenxingyigou-pojo.iml" filepath="$PROJECT_DIR$/chenxingyigou-pojo/chenxingyigou-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-sellergoods-interface/chenxingyigou-sellergoods-interface.iml" filepath="$PROJECT_DIR$/chenxingyigou-sellergoods-interface/chenxingyigou-sellergoods-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-sellergoods-service/chenxingyigou-sellergoods-service.iml" filepath="$PROJECT_DIR$/chenxingyigou-sellergoods-service/chenxingyigou-sellergoods-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-shop-web/chenxingyigou-shop-web.iml" filepath="$PROJECT_DIR$/chenxingyigou-shop-web/chenxingyigou-shop-web.iml" />
+    </modules>
+  </component>
+</project>

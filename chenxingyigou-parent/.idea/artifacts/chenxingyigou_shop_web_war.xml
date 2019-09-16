@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chenxingyigou-shop-web:war">
+    <output-path>$PROJECT_DIR$/chenxingyigou-shop-web/target</output-path>
+    <root id="archive" name="chenxingyigou-shop-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="chenxingyigou-shop-web:war exploded" />
+    </root>
+  </artifact>
+</component>
