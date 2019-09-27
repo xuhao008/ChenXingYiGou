@@ -1,0 +1,1 @@
+var app=angular.module("chenxingyigou",[]);//定义模块，不分页

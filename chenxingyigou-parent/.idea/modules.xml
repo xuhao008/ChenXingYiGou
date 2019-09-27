@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-cart-interface/chenxingyigou-cart-interface.iml" filepath="$PROJECT_DIR$/chenxingyigou-cart-interface/chenxingyigou-cart-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-cart-service/chenxingyigou-cart-service.iml" filepath="$PROJECT_DIR$/chenxingyigou-cart-service/chenxingyigou-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-cart-web/chenxingyigou-cart-web.iml" filepath="$PROJECT_DIR$/chenxingyigou-cart-web/chenxingyigou-cart-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/chenxingyigou-common/chenxingyigou-common.iml" filepath="$PROJECT_DIR$/chenxingyigou-common/chenxingyigou-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/chenxingyigou-content-interface/chenxingyigou-content-interface.iml" filepath="$PROJECT_DIR$/chenxingyigou-content-interface/chenxingyigou-content-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/chenxingyigou-content-service/chenxingyigou-content-service.iml" filepath="$PROJECT_DIR$/chenxingyigou-content-service/chenxingyigou-content-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/chenxingyigou-dao/chenxingyigou-dao.iml" filepath="$PROJECT_DIR$/chenxingyigou-dao/chenxingyigou-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/chenxingyigou-manager-web/chenxingyigou-manager-web.iml" filepath="$PROJECT_DIR$/chenxingyigou-manager-web/chenxingyigou-manager-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-parent.iml" filepath="$PROJECT_DIR$/chenxingyigou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-page-interface/chenxingyigou-page-interface.iml" filepath="$PROJECT_DIR$/chenxingyigou-page-interface/chenxingyigou-page-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-page-service/chenxingyigou-page-service.iml" filepath="$PROJECT_DIR$/chenxingyigou-page-service/chenxingyigou-page-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-page-web/chenxingyigou-page-web.iml" filepath="$PROJECT_DIR$/chenxingyigou-page-web/chenxingyigou-page-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/chenxingyigou-parent.iml" filepath="$PROJECT_DIR$/.idea/chenxingyigou-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/chenxingyigou-pojo/chenxingyigou-pojo.iml" filepath="$PROJECT_DIR$/chenxingyigou-pojo/chenxingyigou-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-portal-web/chenxingyigou-portal-web.iml" filepath="$PROJECT_DIR$/chenxingyigou-portal-web/chenxingyigou-portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-search-interface/chenxingyigou-search-interface.iml" filepath="$PROJECT_DIR$/chenxingyigou-search-interface/chenxingyigou-search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-search-service/chenxingyigou-search-service.iml" filepath="$PROJECT_DIR$/chenxingyigou-search-service/chenxingyigou-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-search-web/chenxingyigou-search-web.iml" filepath="$PROJECT_DIR$/chenxingyigou-search-web/chenxingyigou-search-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/chenxingyigou-sellergoods-interface/chenxingyigou-sellergoods-interface.iml" filepath="$PROJECT_DIR$/chenxingyigou-sellergoods-interface/chenxingyigou-sellergoods-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/chenxingyigou-sellergoods-service/chenxingyigou-sellergoods-service.iml" filepath="$PROJECT_DIR$/chenxingyigou-sellergoods-service/chenxingyigou-sellergoods-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/chenxingyigou-shop-web/chenxingyigou-shop-web.iml" filepath="$PROJECT_DIR$/chenxingyigou-shop-web/chenxingyigou-shop-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-solr-util/chenxingyigou-solr-util.iml" filepath="$PROJECT_DIR$/chenxingyigou-solr-util/chenxingyigou-solr-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-user-interface/chenxingyigou-user-interface.iml" filepath="$PROJECT_DIR$/chenxingyigou-user-interface/chenxingyigou-user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-user-service/chenxingyigou-user-service.iml" filepath="$PROJECT_DIR$/chenxingyigou-user-service/chenxingyigou-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenxingyigou-user-web/chenxingyigou-user-web.iml" filepath="$PROJECT_DIR$/chenxingyigou-user-web/chenxingyigou-user-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast_sms_service/itcast_sms_service.iml" filepath="$PROJECT_DIR$/itcast_sms_service/itcast_sms_service.iml" />
     </modules>
   </component>
 </project>

@@ -14,6 +14,7 @@ import com.chenxingyigou.pojo.TbTypeTemplateExample.Criteria;
 import com.chenxingyigou.sellergoods.service.TypeTemplateService;
 import entity.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
@@ -114,8 +115,29 @@ public class TypeTemplateServiceImpl implements TypeTemplateService {
 		}
 		
 		Page<TbTypeTemplate> page= (Page<TbTypeTemplate>)typeTemplateMapper.selectByExample(example);		
+		//缓存处理
+         saveToRedis();
 		return new PageResult(page.getTotal(), page.getResult());
 	}
+
+	@Autowired
+	private RedisTemplate redisTemplate;
+
+    /**
+     * 将品牌列表与规格列表放入缓存
+     */
+	private void saveToRedis(){
+        List<TbTypeTemplate> all = findAll();
+        for (TbTypeTemplate tbTypeTemplate:all){
+            //得到品牌列表
+            List<Map> maps = JSON.parseArray(tbTypeTemplate.getBrandIds(), Map.class);
+            redisTemplate.boundHashOps("brandList").put(tbTypeTemplate.getId(),maps);
+            //得到规格列表
+            List<Map> specList = findSpecList(tbTypeTemplate.getId());
+            redisTemplate.boundHashOps("specList").put(tbTypeTemplate.getId(),specList);
+        }
+        System.out.println("缓存品牌和规格列表");
+    }
 
 	@Override
 	public List<Map> findByTemplate() {

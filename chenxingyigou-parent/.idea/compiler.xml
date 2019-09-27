@@ -6,28 +6,58 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="chenxingyigou-cart-interface" />
+        <module name="chenxingyigou-cart-service" />
+        <module name="chenxingyigou-cart-web" />
         <module name="chenxingyigou-common" />
         <module name="chenxingyigou-content-interface" />
         <module name="chenxingyigou-content-service" />
         <module name="chenxingyigou-dao" />
         <module name="chenxingyigou-manager-web" />
+        <module name="chenxingyigou-page-interface" />
+        <module name="chenxingyigou-page-service" />
+        <module name="chenxingyigou-page-web" />
         <module name="chenxingyigou-pojo" />
+        <module name="chenxingyigou-portal-web" />
+        <module name="chenxingyigou-search-interface" />
+        <module name="chenxingyigou-search-service" />
+        <module name="chenxingyigou-search-web" />
         <module name="chenxingyigou-sellergoods-interface" />
         <module name="chenxingyigou-sellergoods-service" />
         <module name="chenxingyigou-shop-web" />
+        <module name="chenxingyigou-solr-util" />
+        <module name="chenxingyigou-user-interface" />
+        <module name="chenxingyigou-user-service" />
+        <module name="chenxingyigou-user-web" />
+        <module name="itcast_sms_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chenxingyigou-cart-interface" target="1.7" />
+      <module name="chenxingyigou-cart-service" target="1.7" />
+      <module name="chenxingyigou-cart-web" target="1.7" />
       <module name="chenxingyigou-common" target="1.7" />
       <module name="chenxingyigou-content-interface" target="1.7" />
       <module name="chenxingyigou-content-service" target="1.7" />
       <module name="chenxingyigou-dao" target="1.7" />
       <module name="chenxingyigou-manager-web" target="1.7" />
+      <module name="chenxingyigou-page-interface" target="1.7" />
+      <module name="chenxingyigou-page-service" target="1.7" />
+      <module name="chenxingyigou-page-web" target="1.7" />
       <module name="chenxingyigou-parent" target="1.7" />
       <module name="chenxingyigou-pojo" target="1.7" />
+      <module name="chenxingyigou-portal-web" target="1.7" />
+      <module name="chenxingyigou-search-interface" target="1.7" />
+      <module name="chenxingyigou-search-service" target="1.7" />
+      <module name="chenxingyigou-search-web" target="1.7" />
       <module name="chenxingyigou-sellergoods-interface" target="1.7" />
       <module name="chenxingyigou-sellergoods-service" target="1.7" />
       <module name="chenxingyigou-shop-web" target="1.7" />
+      <module name="chenxingyigou-solr-util" target="1.7" />
+      <module name="chenxingyigou-user-interface" target="1.7" />
+      <module name="chenxingyigou-user-service" target="1.7" />
+      <module name="chenxingyigou-user-web" target="1.7" />
+      <module name="itcast_sms_service" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

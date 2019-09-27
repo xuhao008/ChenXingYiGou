@@ -13,6 +13,7 @@ import entity.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -238,4 +239,18 @@ public class GoodsServiceImpl implements GoodsService {
 		}
 	}
 
+    /**
+     * 根据spuId集合，查询sku列表
+     * @param goodsIds
+     * @param status
+     * @return
+     */
+    @Override
+	public List<TbItem> findItemListByGoodsIdListAndStatus(Long[] goodsIds,String status){
+		TbItemExample example=new TbItemExample();
+        TbItemExample.Criteria criteria = example.createCriteria();
+        criteria.andStatusEqualTo(status);//状态
+        criteria.andGoodsIdIn(Arrays.asList(goodsIds));//指定条件，spuid集合
+        return itemMapper.selectByExample(example);
+    }
 }

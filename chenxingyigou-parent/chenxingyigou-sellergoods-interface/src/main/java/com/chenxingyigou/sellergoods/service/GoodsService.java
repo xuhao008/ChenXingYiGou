@@ -1,6 +1,7 @@
 package com.chenxingyigou.sellergoods.service;
 
 import com.chenxingyigou.pojo.TbGoods;
+import com.chenxingyigou.pojo.TbItem;
 import com.chenxingyigou.pojogroup.Goods;
 import entity.PageResult;
 
@@ -66,5 +67,6 @@ public interface GoodsService {
 	 * @param status
 	 */
 	public void updateStatus(Long []ids,String status);
-	
+
+	public List<TbItem> findItemListByGoodsIdListAndStatus(Long[] goodsIds,String status);
 }
